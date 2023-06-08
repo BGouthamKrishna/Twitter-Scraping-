@@ -4,11 +4,6 @@ import streamlit as st
 import datetime
 import pymongo
 
-# program to not display a warning message
-import warnings
-
-# displaying the warning message
-warnings.warn('Warning Message: 4')
 
 # Page config settings
 st.set_page_config(layout="wide", page_title='Twitter scraper')
